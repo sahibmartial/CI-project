@@ -3,7 +3,7 @@ services:
      #WEB
      battlesahibmartial:
        hostname: "battlesahibmartial"
-       image: "sahibmartial/fake:V1"
+       image: "sahibmartial/fake-CI:V1"
        container_name: "battlesahibmartial"
        volumes: 
           - ./battleboat:/etc/backend/static
